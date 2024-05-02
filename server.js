@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 app.use(bodyparser.urlencoded({extended : false}));
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/beauty");
+mongoose.connect("mongodb://localhost:27017/rishab");
 
 // Middleware for serving static files
 app.use(express.static(path.join(__dirname, 'public')));
